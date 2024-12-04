@@ -1,6 +1,6 @@
 # Projeto: Rede de Doação de Livros  
 
-Este projeto tem como objetivo criar uma plataforma web para incentivar a doação de livros, conectando pessoas interessadas em compartilhar conhecimento. Desenvolvido com **React**, **Sass** e **JavaScript**, o site é moderno, dinâmico e fácil de usar.  
+Este projeto foi desenvolvido como parte do Desafio Final do Primeiro Módulo do curso de Fullstack da Escola Vai na Web, tendo como objetivo criar uma plataforma web para incentivar a doação de livros, conectando pessoas interessadas em compartilhar conhecimento. Desenvolvido com **React**, **Sass** e **JavaScript**, o site é moderno, dinâmico e fácil de usar.  
 
 ## Estrutura do Site  
 
