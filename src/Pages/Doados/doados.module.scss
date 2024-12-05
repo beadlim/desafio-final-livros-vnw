@@ -4,16 +4,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
-.boxcard{
-    // border: solid 2px green;
+.boxCard{
     width: 85vw;
     height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+     gap: 10px;
     article{
      border:  solid 2px #005695;
-     width: 13vw;
+     width: 200px;
      height: 32vh;
      display: flex;
      justify-content: space-evenly;
@@ -24,4 +27,29 @@
         padding-bottom: 20px;
       }
     }
+
+    @media(max-width: 1000px){
+      .boxDoados{
+        justify-content: space-around;
+      }
+      .boxCard{
+      article{
+        width: 200px;
+        height: 230px;
+      }
+    }
+
+    }
+@media(max-width: 520px){
+  .boxBooks{
+    flex-wrap: wrap;
+    gap: 10px;
+    height: auto;
+  }
+  .boxDoados{
+    height: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+}
 }

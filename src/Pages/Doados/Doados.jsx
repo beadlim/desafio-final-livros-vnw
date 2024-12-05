@@ -6,7 +6,7 @@ export default function Doados(){
     return(
         <section className={S.boxDoados}>
             <h2>Livros Doados</h2>
-            <section className={S.boxcard}>
+            <section className={S.boxCard}>
                 <article>
                     <img src={livro} alt="imagem de um livro que se chama o protagonista" />
                     
